@@ -1,7 +1,12 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
-/** @type import('hardhat/config').HardhatUserConfig */
+/** 
+ * Hardhat User Configuration
+ * --------------------------
+ * This annotation ensures proper TypeScript type checking and IntelliSense support 
+ * by importing the HardhatUserConfig type from the Hardhat config module. 
+ */
 module.exports = {
   solidity: {
     compilers: [
